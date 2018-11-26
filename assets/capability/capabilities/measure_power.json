@@ -12,12 +12,19 @@
     "nl": "Vermogen in Watt (W)"
   },
   "options": {
-    "isGenerator": {
-      "type": "boolean",
-      "default": false,
+    "isRootOfZone": {
+      "type": "string",
+      "default": "",
       "desc": {
-        "en": "This flag is used to determine whether this devices uses or generates power."
+        "en": "This option contains a zone identifier and indicates that this measurement is a root measurement for that zone"
       }
+    }
+  },
+  "isGenerator": {
+    "type": "boolean",
+    "default": false,
+    "desc": {
+      "en": "This flag is used to determine whether this devices uses or generates power."
     }
   },
   "chartType": "stepLine",

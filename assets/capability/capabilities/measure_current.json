@@ -11,6 +11,15 @@
     "en": "Electric current (A)",
     "nl": "Elektrische stroom (A)"
   },
+  "options": {
+    "isRootOfZone": {
+      "type": "string",
+      "default": "",
+      "desc": {
+        "en": "This option contains a zone identifier and indicates that this measurement is a root measurement for that zone"
+      }
+    }
+  }
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
